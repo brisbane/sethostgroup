@@ -1,30 +1,30 @@
 {
-      "name": "setworkgroup",
-      "version": "0.0.1",
-      "author": "Sean Brisbane",
-      "license": "Apache-2.0",
-      "summary": "A module for setting a factg called workgroup, to be used elsewhere for decision making",
-      "source": "https://github.com/brisbane/sethostgroup",
-      "project_page": "https://github.com/brisbane/sethostgroup/README.md",
-      "issues_url": "https://github.com/examplecorp/examplecorp-mymodule/issues",
-      "tags": ["things", "stuff", "customfact"],
-      "operatingsystem_support": [
-        {
-        "operatingsystem":"RedHat"
-        },
-        {
-	"operatingsystem":"CentOS"
-        },
-        {
-	"operatingsystem":"Scientific Linux"
-        },
-        {
-        "operatingsystem": "Ubuntu",
-        }
-       ],
-      "dependencies": [
-        { "name": "puppetlabs/stdlib", "version_requirement": ">= 3.2.0"  },
-      ],
-      "data_provider": "hiera"
+  "name": "setworkgroup",
+  "version": "0.0.1",
+  "author": "Sean Brisbane",
+  "license": "Apache-2.0",
+  "summary": "A module for setting a factg called workgroup, to be used elsewhere for decision making",
+  "source": "https://github.com/brisbane/sethostgroup",
+  "project_page": "https://github.com/brisbane/sethostgroup/README.md",
+  "issues_url": "https://github.com/examplecorp/examplecorp-mymodule/issues",
+  "tags": ["things", "stuff", "customfact"],
+  "operatingsystem_support": [
+    {
+    "operatingsystem":"RedHat"
+    },
+    {
+    "operatingsystem":"CentOS"
+    },
+    {
+    "operatingsystem":"Scientific Linux"
+    },
+    {
+    "operatingsystem": "Ubuntu",
+    }
+   ],
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 3.2.0"  },
+  ],
+  "data_provider": "hiera"
 }
 
