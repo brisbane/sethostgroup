@@ -1,4 +1,4 @@
-    {
+{
       "name": "setworkgroup",
       "version": "0.0.1",
       "author": "Sean Brisbane",
@@ -26,4 +26,5 @@
         { "name": "puppetlabs/stdlib", "version_requirement": ">= 3.2.0"  },
       ],
       "data_provider": "hiera"
-    }
+}
+
